@@ -14,22 +14,25 @@ You must have openai labs api key credentials before you can get going. Get one 
 
 ```
 # Npm
-npm install getchatgpt
+npm install openai
+npm install apichatgpt
 ```
 
 ```
 # yarn
-yarn add getchatgpt
+yarn add openai
+yarn add apichatgpt
 ```
 
 ```
 # pnpm
-pnpm add getchatgpt
+pnpm add openai
+pnpm add apichatgpt
 ```
 
 # Usage
 ```js
-const gptapi = require('getchatgpt')
+const gptapi = require('apichatgpt')
 
 const myGpt = new gptapi({
     apiKey: process.env.OPEN_AI_API,
