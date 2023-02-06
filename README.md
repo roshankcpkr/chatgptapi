@@ -14,16 +14,19 @@ You must have openai labs api key credentials before you can get going. Get one 
 
 ```
 # Npm
+npm install openai
 npm install apichatgpt
 ```
 
 ```
 # yarn
+yarn add openai
 yarn add apichatgpt
 ```
 
 ```
 # pnpm
+pnpm add openai
 pnpm add apichatgpt
 ```
 
