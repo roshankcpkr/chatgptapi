@@ -8,7 +8,7 @@ Here are instructions on how you can get started.
 
 ### Prerequisites
 
-You must have openai labs api key credentials before you can get going.
+You must have openai labs api key credentials before you can get going. Get one from [openaichatgpt](https://openai.com/blog/chatgpt/)
 
 ### Installation
 
