@@ -1,5 +1,5 @@
 {
-  "name": "chatgptapi",
+  "name": "getchatgpt",
   "version": "1.0.0",
   "description": "Use chatgpt in your project with it's official api easily.",
   "source": "src/index.js",
@@ -10,7 +10,7 @@
   "keywords": [
     "chatgpt",
     "OpenAI api",
-    "Chat gpt api"
+    "Chatgpt api"
   ],
   "repository": {
     "type": "git",
