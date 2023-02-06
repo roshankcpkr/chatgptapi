@@ -1,0 +1,17 @@
+{
+  "name": "chatgptapi",
+  "version": "1.0.0",
+  "description": "Use chatgpt in your project with it's official api easily.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["chatgpt", "OpenAI api", "Chat gpt api"],
+  "repository": {
+    "type" : "git",
+    "url": "https://github.com/roshankcpkr/chatgptapi.git"
+  },
+  "author": "Roshan K.C <admin@roshan.info.np> (roshankc.info.np)",
+  "license": "MIT",
+  "private": false
+}
