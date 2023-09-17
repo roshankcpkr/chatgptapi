@@ -20,6 +20,6 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "openai": "^3.1.0"
+    "openai": "^4.0.0"
   }
 }

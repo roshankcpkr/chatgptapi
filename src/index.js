@@ -1,13 +1,11 @@
-const { Configuration, OpenAIApi } = require("openai");
-
+const OpenAI = require('openai');
 
 function Gpt(apiKey){
-    this.configuration = new Configuration(apiKey);
-    this.openai = new OpenAIApi(this.configuration);
+    this.openai = new OpenAI(apiKey);
     this.answer = async function (message)
     {
         try{
-                const response = await this.openai.createCompletion({
+                const response = await this.openai.completions.create({
                     model: "text-davinci-003",
                     prompt: `${message}`,
                     temperature: 0,
@@ -17,11 +15,11 @@ function Gpt(apiKey){
                     presence_penalty: 0.0,
                     stop: ["You:"],
                 });
-                return response['data']['choices'][0]['text']
+                return response.choices[0].text
             }
         catch(error)
             {
-                return error['response']['data']
+                return error
             }
 
     }
